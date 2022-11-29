@@ -1,0 +1,161 @@
+[
+  "NOTE: must add new 'correlationId' attribute to field properties.
+  This will map to a correlation ID which must be returned from the ACET
+  Integration Service API. Correlation ID is used to distiguish sets of data in autodoc.
+
+  LWC Datatable uses the 'key-field' to uniquely identify the table row. We will used
+  the correlation ID for this value".
+
+  {
+    "name": "correlationId",
+    "showlabel": false,
+    "isText": true,
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+  },
+  {
+    "name": "resolved",
+    "showlabel": false,
+    "isText": true,
+    "value": "true"
+  },
+  {
+    "name": "routed",
+    "showlabel": false,
+    "isText": true,
+    "value": "false" // note: this will by dynamically populated after case mgmt workflow
+  },
+  {
+    "name": "routeSystem",
+    "showlabel": false,
+    "isText": true,
+    "value": "{ORS|ACET}" // note: this will by dynamically populated after case mgmt workflow
+  },
+  {
+    "name": "routeRefNumber",
+    "showlabel": false,
+    "isText": true,
+    "value": "{ORS SR #|ACET Case #}" // note: this will by dynamically populated after case mgmt workflow
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "name": "totalCharged",
+    "showlabel": true,
+    "label": "Total Charged",
+    "enableAutodoc": true,
+    "isText": true,
+    "type": "currency",
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Total Disallow Amount",
+    "name": "totalDisallowAmount",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+    "type": "currency",
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Allowed Amount",
+    "name": "allowedAmount",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+    "type": "currency",
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Deductible",
+    "name": "deductible",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+    "type": "currency",
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Co-Pay Amount",
+    "name": "coPayAmount",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+     "type": "currency",
+
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Co-Insurance Amount",
+    "name": "coInsuranceAmount",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+      "type": "currency",
+
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Total Patient Responsibility",
+    "name": "totalPatientResponsibility",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+      "type": "currency",
+
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Total Paid",
+    "name": "totalPaid",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+     "type": "currency",
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  },
+  {
+    "cssclass": "slds-col slds-size_1-of-6 slds-p-bottom_small ",
+    "label": "Interest Paid",
+    "name": "interestPaid",
+    "showlabel": true,
+    "isLink": false,
+    "isText": true,
+    "isEncypted": false,
+      "type": "currency",
+
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+    "arrayNodePath": ""
+  }
+
+]

@@ -1,0 +1,32 @@
+{
+  "type": "caseMgmtResponse",
+  "requestType": "saveCase|routeCase",
+  "data": {
+    "casesCreated": [
+      {
+        "creationStatus": "created|updated",
+        "type": "documentation|internalIssue",
+        "interactionId": "",
+        "caseId": ""
+      }
+    ],
+    "routedIssues": [
+      {
+        "topic": "view-eligibility|view-claims|plan-benefits",
+        "componentName": "{pulled from autodoc}",
+        "correlationId": "{pulled from autodoc}",
+        "routingSystem": "ORS|ACET",
+        "referenceId": "{Service Request #|ACET Case ID}"
+      }
+    ]
+  },
+  "status":{
+    "message": [
+      "code": "",
+      "name": "",
+      "severity": "",
+      "origin": "",
+      "description": ""
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+NOTE: May want to copy this component named as 'acet_lwc_routeCase'
+  - we can use the existing TTS modal logic for routing.
+
+Remove: code block "<template if:true={isModalOpen}>"
+  - the TTS modal is no longer needed for saving a case.
+
+Update:
+  - Rename to 'acet_lwc_saveCase' (remove reference from TTS)
+
+<template>
+    <!-- lightning button for open modal window -->
+    <lightning-button variant="brand"
+       label="Save Case"
+       title="Save Case"
+       onclick={SaveCaseClicked} <-- new function
+       class="slds-m-left_x-small">
+    </lightning-button>

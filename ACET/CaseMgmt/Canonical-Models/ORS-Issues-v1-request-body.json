@@ -1,0 +1,538 @@
+{
+  "meta": {
+    "controlModifiers": {
+      "orsSourceSystemParameters": {
+        "logonId": "UPA",
+        "logonOffice": "673"
+      }
+    }
+  },
+  "data": {
+    "createdByApplicationIndicator": "V",
+    "issue": {
+      "assignedPssId": "",
+      "businessSegmentName": "",
+      "callAttemptDetailText": "",
+      "callbackPromisedDate": "2017-06-15",
+      "callExceedsExpectationIndicator": "",
+      "callHistoryFlag": "A",
+      "callMeetsExpectationIndicator": "",
+      "callProgramName": "",
+      "campaignCode": "",
+      "campaignReportText": "",
+      "caseNumber": "",
+      "checkNumber": "",
+      "claim": {
+        "adjustedClaimIndicator": "",
+        "atg": {
+          "sourceId": "",
+          "drafts": [
+            {
+              "draftNumber": "",
+              "inventoryControlNumber": ""
+            }
+          ]
+        },
+        "atgIndicator": "",
+        "authorization": "",
+        "claimApp": "",
+        "claimAppSsn": "467521038",
+        "claimNumber": "",
+        "claimOffice": "",
+        "engineCode": "",
+        "filmNumber": "",
+        "filmOffice": "",
+        "filmSystem": "",
+        "fundingArrangement": "",
+        "invoiceNumber": "",
+        "payLocationNumber": "",
+        "serviceDate": "2017-06-15",
+        "substituteIndicator": "",
+        "totalAmount": "11764.25"
+      },
+      "comments": [
+        ""
+      ],
+      "complaintCategoryText": "",
+      "contactElapseTime": 0,
+      "contactId": "",
+      "contactMethodCode": "W",
+      "deleteRequestIndicator": "B",
+      "directionCode": "I",
+      "disposition": "",
+      "dispositionNotificationDate": "2017-06-15",
+      "employer": {
+        "employerName": "",
+        "employerNumber": "",
+        "employerState": "MN"
+      },
+      "followUp": {
+        "cellPhone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "contactDate": "2017-06-15",
+        "creator": {
+          "associateId": "UPA",
+          "departmentCode": "SYS",
+          "officeId": "673",
+          "teamCode": "SOS"
+        },
+        "email": "",
+        "estimatedCompletionDate": "2017-06-15",
+        "fax": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "followUpDate": "2017-06-15",
+        "homePhone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "nextAction": "",
+        "nextActionDueDate": "2017-06-15",
+        "otherPhone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "preferredContactTime": "9-11 AM CST",
+        "primaryContact": "",
+        "purposeCode": "",
+        "resolvedDate": "2017-06-15",
+        "statusCode": "",
+        "voiceMailIndicator": "",
+        "workPhone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        }
+      },
+      "grievance": {
+        "categoryText": "",
+        "dispositionText": "",
+        "reasonCode": "",
+        "reasonText": "",
+        "receiptDate": "2017-06-15"
+      },
+      "hipaaIndicator": "N",
+      "issueElapseTime": 0,
+      "issueHandling": {
+        "carbonCopies": [
+          {
+            "associateId": "UPA",
+            "departmentCode": "SYS",
+            "officeId": "673",
+            "teamCode": "SOS"
+          }
+        ],
+        "resolvedBy": {
+          "associateId": "UPA",
+          "departmentCode": "SYS",
+          "officeId": "673",
+          "teamCode": "SOS"
+        },
+        "routedTo": {
+          "associateId": "UPA",
+          "departmentCode": "SYS",
+          "officeId": "673",
+          "teamCode": "SOS"
+        }
+      },
+      "launchCategoryText": "",
+      "launchReasonText": "",
+      "logoLookups": [
+        {
+          "bodyFontName": "",
+          "bodyFontNumber": "",
+          "bodyFontSizeNumber": "",
+          "constituentText": "",
+          "duncanImageNumber": "",
+          "rtnFontName": "",
+          "rtnFontNumber": "",
+          "rtnFontSizeNumber": ""
+        }
+      ],
+      "manualRouteIndicator": "N",
+      "member": {
+        "address": {
+          "city": "",
+          "countryCode": "",
+          "countryName": "",
+          "countyCode": "",
+          "countyName": "",
+          "state": "MN",
+          "street1": "",
+          "street2": "",
+          "zip": "55347",
+          "zip4": "5621"
+        },
+        "age": 52,
+        "alternateId": "",
+        "ambulanceIndicator": "Y",
+        "assignedCsrName": "",
+        "benefitPackageCode": "",
+        "clientCode": "",
+        "copayEffectiveDate": "2017-06-15",
+        "coverageIndicator": "",
+        "customerNumber": "",
+        "dateOfBirth": "2017-06-15",
+        "dateOfDeath": "2017-06-15",
+        "dependentName": {
+          "firstInitial": "",
+          "firstName": "",
+          "lastName": "",
+          "middleInitial": ""
+        },
+        "dependentNumber": "",
+        "division": "",
+        "dlEligIndicator": "Y",
+        "eligibilitySourceSystem": "",
+        "eligibilityValidatedFlag": "Y",
+        "email": "",
+        "emailIndicator": "Y",
+        "enrollmentSourceCode": "",
+        "facetPlanCode": "",
+        "faxNumber": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "fontIndicator": "",
+        "genderCode": "",
+        "groupName": "",
+        "groupNumber": "",
+        "hippaEligibleFlag": "",
+        "ipaCode": "",
+        "iPlanIndicator": "",
+        "languageTranslationId": "",
+        "leadPlanCode": "",
+        "legalEntity": "",
+        "lisPctCode": "",
+        "logoIndicator": "",
+        "logonId": "",
+        "market": "",
+        "masterGroupNumber": "",
+        "medicaidId": "",
+        "medicareId": "",
+        "medicareStatusCode": "",
+        "meetingDate": "2017-06-15",
+        "meetingTypeName": "",
+        "memberName": {
+          "firstInitial": "",
+          "firstName": "",
+          "lastName": "",
+          "middleInitial": ""
+        },
+        "memberNumber": "",
+        "memberVerifiedIndicator": "Y",
+        "militaryTreatmentFacilityLocation": "",
+        "neonIndicator": "",
+        "networkPrefixCode": "",
+        "obligorId": "",
+        "optOutIndicator": "",
+        "originalEffectiveDate": "2017-06-15",
+        "otherGroupNumber": "",
+        "otherProduct": "",
+        "otherSubscriberId": "",
+        "panelCode": "",
+        "parentGroupName": "",
+        "passportIndicator": "Y",
+        "pcpOverrideIndicator": "Y",
+        "personalIdentificationNumber": "",
+        "phone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "planCode": "",
+        "planEffectiveDate": "2017-06-15",
+        "planEndDate": "2017-06-15",
+        "planVariationCode": "",
+        "policy": "",
+        "premiumWithholdCode": "",
+        "primaryPolicyNumber": "",
+        "primeIndicator": "U",
+        "product": "",
+        "raceEthnicityCode": "",
+        "rank": "",
+        "regionCode": "",
+        "relationshipCode": "",
+        "relationshipSequenceNumber": "",
+        "reportingCode": "",
+        "riderCodeIndicator": "Y",
+        "riderCodes": [
+          ""
+        ],
+        "secondaryDrugInsuranceIndicator": "",
+        "servicesQuoted": {
+          "alternativeAndHolisticMedicineServiceQuoted": "Y",
+          "bloodServiceQuoted": "Y",
+          "brandDrugsServiceQuoted": "Y",
+          "careManagementProgramServiceQuoted": "Y",
+          "cataractSurgeryBenefitsQuoted": "Y",
+          "chiropracticServiceQuoted": "Y",
+          "cosmeticServiceQuoted": "Y",
+          "csrProgramServiceQuoted": "Y",
+          "custodialCareServiceQuoted": "Y",
+          "deductibleServiceQuoted": "Y",
+          "dentalServiceQuoted": "Y",
+          "diabeticEducationServiceQuoted": "Y",
+          "diabeticMonitorAndSuppliesServiceQuoted": "Y",
+          "diagnosticAndRadiologyServiceQuoted": "Y",
+          "diagnosticLaboratoryServiceQuoted": "Y",
+          "durableMedicalEquipmentServiceQuoted": "Y",
+          "emergencyAndUrgentCareServiceQuoted": "Y",
+          "familyPlanningServiceQuoted": "Y",
+          "genericDrugsServiceQuoted": "Y",
+          "gymMembershipServiceQuoted": "Y",
+          "healthyLivingProgramsServiceQuoted": "Y",
+          "hearingExamServiceQuoted": "Y",
+          "hearingServiceQuoted": "Y",
+          "homeHealthServiceQuoted": "Y",
+          "immunizationsServiceQuoted": "Y",
+          "inpatientHospitalAndMedicalServiceQuoted": "Y",
+          "inpatientMentalHealthServiceQuoted": "Y",
+          "mailOrderServiceQuoted": "Y",
+          "maxLimitationsServiceQuoted": "Y",
+          "maxOutOfPocketQuoted": "Y",
+          "medicareCoveredDentalServiceQuoted": "Y",
+          "memberMeetingsServiceQuoted": "Y",
+          "nonRadiologyAndTherapeuticServiceQuoted": "Y",
+          "oonBenefitServiceQuoted": "Y",
+          "orthoticsAndProstheticsServiceQuoted": "Y",
+          "otcSuppliesServiceQuoted": "Y",
+          "outpatientMentalHealthServiceQuoted": "Y",
+          "outpatientRehabilitationServiceQuoted": "Y",
+          "outpatientSurgeryAndObservationServiceQuoted": "Y",
+          "partBDrugsServiceQuoted": "Y",
+          "pcpOfficeVisitServiceQuoted": "Y",
+          "pharmacyLocatorServiceQuoted": "Y",
+          "podiatryBenefitsServiceQuoted": "Y",
+          "preferredFormularyServiceQuoted": "Y",
+          "preventiveScreeningServiceQuoted": "Y",
+          "renalDialysisServiceQuoted": "Y",
+          "riderBenefitsServiceQuoted": "Y",
+          "skilledNursingServiceQuoted": "Y",
+          "specialistOfficeVisitServiceQuoted": "Y",
+          "transplantServiceQuoted": "Y",
+          "transportationServiceQuoted": "Y",
+          "trueOopServiceQuoted": "Y",
+          "unfundedProgramsServiceQuoted": "Y",
+          "valueAddedServiceServiceQuoted": "Y",
+          "visionBenefitServiceQuoted": "Y"
+        },
+        "sharedArrangementId": "",
+        "site": "",
+        "ssaPaymentCode": "",
+        "statusCode": "",
+        "subsidyOverrideIndicator": "",
+        "totalNonCoverageCount": 0,
+        "verbalLanguageName": "",
+        "walkinTime": "14:05:21",
+        "writtenLanguageName": ""
+      },
+      "originalApplicationFileDate": "2017-06-15",
+      "originator": {
+        "callerAddress": {
+          "city": "",
+          "countryCode": "",
+          "countryName": "",
+          "countyCode": "",
+          "countyName": "",
+          "state": "MN",
+          "street1": "",
+          "street2": "",
+          "zip": "55347",
+          "zip4": "5621"
+        },
+        "callerName": {
+          "firstInitial": "I",
+          "firstName": "I",
+          "lastName": "",
+          "middleInitial": ""
+        },
+        "cti": {
+          "autoId": "",
+          "dialedId": "",
+          "icrCallLocationDay": "",
+          "icrCallLocationId": ""
+        },
+        "dayPhone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "eveningPhone": {
+          "areaCode": "",
+          "number": "",
+          "extension": "",
+          "extension2": ""
+        },
+        "originatorMpin": "",
+        "originatorTin": "",
+        "originatorTinSuffix": "",
+        "originatorTypeCode": "EM",
+        "providerId": ""
+      },
+      "otherInfo": {
+        "agencyName": "",
+        "agencyTaxId": "",
+        "agencyUniqueId": "",
+        "company": "",
+        "complState": "",
+        "incompleteFlag": "",
+        "insuranceCompany": "",
+        "lineType": "",
+        "qaCategory": "",
+        "qaCodeType": "",
+        "qaSource": "",
+        "qitType": ""
+      },
+      "overrideIndicator": "N",
+      "payer": "",
+      "pharmacyClaimNumber": "",
+      "pharmacyClassText": "",
+      "pharmacyId": "",
+      "pharmacyName": "",
+      "priority": "N",
+      "providerInfo": {
+        "commonProviderID": "",
+        "contractNumber": "",
+        "degreeName": "",
+        "emailIndicator": "",
+        "ipa": "",
+        "languageCode": "",
+        "marketSegmentName": "",
+        "npis": [
+          ""
+        ],
+        "originalEffectiveDate": "",
+        "otherIpa": "",
+        "panelNumber": "",
+        "pcp": {
+          "address": {
+            "city": "",
+            "countryCode": "",
+            "countryName": "",
+            "countyCode": "",
+            "countyName": "",
+            "state": "MN",
+            "street1": "",
+            "street2": "",
+            "zip": "55347",
+            "zip4": "5621"
+          },
+          "mpin": "",
+          "mpinSequenceNumber": "",
+          "phone": {
+            "areaCode": "",
+            "number": "",
+            "extension": "",
+            "extension2": ""
+          },
+          "providerId": "",
+          "providerName": {
+            "firstInitial": "",
+            "firstName": "",
+            "lastName": "",
+            "middleInitial": ""
+          },
+          "taxId": "",
+          "taxPrefix": "",
+          "taxSuffix": ""
+        },
+        "pcpValidatedFlag": "",
+        "productCode": "",
+        "programSearchCode": "",
+        "provider": {
+          "address": {
+            "city": "",
+            "countryCode": "",
+            "countryName": "",
+            "countyCode": "",
+            "countyName": "",
+            "state": "MN",
+            "street1": "",
+            "street2": "",
+            "zip": "55347",
+            "zip4": "5621"
+          },
+          "mpin": "",
+          "mpinSequenceNumber": "",
+          "phone": {
+            "areaCode": "",
+            "number": "",
+            "extension": "",
+            "extension2": ""
+          },
+          "providerId": "",
+          "providerName": {
+            "firstInitial": "",
+            "firstName": "",
+            "lastName": "",
+            "middleInitial": ""
+          },
+          "taxId": "",
+          "taxPrefix": "",
+          "taxSuffix": ""
+        },
+        "providerSourceSystem": "U",
+        "providerValidatedFlag": "",
+        "serviceMarket": "",
+        "serviceZip": "55347",
+        "specialtyText": "",
+        "stateIssuedID": "",
+        "statusCode": "",
+        "tpsmIndicator": ""
+      },
+      "pssActionTaken": "",
+      "raplNoblxIndicator": "",
+      "reasonCategory": "",
+      "reasonCode": "",
+      "reasonHcnasType": "",
+      "reasonType": "",
+      "repeatIndicator": "N",
+      "routeConditionCode": "",
+      "seriesDesignator": "",
+      "serviceRequest": {
+        "addressUpdateRequiredIndicator": "",
+        "bulkCheckIndicator": "",
+        "checkPayee": "",
+        "checkStockNumber": "",
+        "claimAdjustmentRequiredIndicator": "",
+        "clientId": "",
+        "countyCode": "",
+        "countyName": "",
+        "diamondProviderLocationId": "",
+        "diamondProviderLocationName": "",
+        "documentControlNumber": "",
+        "originatorLocationId": "",
+        "policyNumber": "",
+        "productId": "",
+        "resolutionCode": "",
+        "srProductType": "",
+        "srSubType": "",
+        "srType": "",
+        "subCodeId": "",
+        "wbxUpdateRequiredIndicator": ""
+      },
+      "status": "A",
+      "subReasonText": "",
+      "surveyCode": "",
+      "updateDate": "",
+      "updateTime": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿Provider Lookup User Stories,Story Point Estimate
+,
+"Create CM Controller, Factory, workflow builder, workflow runner and metadata configuration",3
+"Create CM call documentation workflow steps:  case init, originator (provider & member), subject (provider & member), case status, case create ",5
+Create CM call documentation workflow builder,2
+Create comments workflow step,2
+Create autodoc workflow step,2
+Create CM workflow runner,3
+Create CM LWC component,3
+Refactor acet_lwc_TtsSaveCase component,1
+Unit test dev,2
+,23

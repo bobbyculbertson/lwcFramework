@@ -1,0 +1,8 @@
+
+<template>
+    <lightning-combobox type="statePicklist" key={fieldData.label} label={fieldData.label} name={fieldData.name}
+                        class={fieldData.cssclass} required={fieldData.required} value={fieldData.value}
+                        options={states} onchange={handleStatePicklistChange}
+                        placeholder={fieldData.placeholder}>
+    </lightning-combobox>
+</template>

@@ -1,0 +1,3 @@
+﻿ID,Related_TTS_Num,Route_Type,Route_Subtype,Office_ID,Dept_ID,Team_ID,Routing_System,LOB,Case_Queue
+1,TTS-0001,Dental Appeals,Member Claim Appeals - BSCA,7,SB0,D0A,ORS,Specialty,
+2,TTS-0001,Dental Appeals,Member Claim Appeals - HN,,,,ACET,Specialty,SST_Team

@@ -1,0 +1,6 @@
+﻿ID (unique int),RequestType,LOB (String),Product (String),ClassType (String),ClassName (String)
+1,SaveCase,,,workflowBuilder,ACET_CaseMgmtCallDocumentationWorkflowBuilderV1
+2,SaveCase,,,workflowRunner,ACET_CaseMgmtWorkflowRunnerV1
+3,RouteCase,,,workflowBuilder,ACET_CaseMgmtRoutingWorkflowBuilderV1
+4,RouteCase,,,workflowRunner,ACET_CaseMgmtWorkflowRunnerV1
+5,SaveCase,UHOne,,workflowBuilder,ACET_CaseMgmtCallDocumentationWorkflowBuilderV2

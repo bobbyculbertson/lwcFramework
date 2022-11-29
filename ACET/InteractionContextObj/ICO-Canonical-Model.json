@@ -1,0 +1,110 @@
+{
+  "comments": "this is a canonical structure for the Interaction Context Object",
+
+  "accountRecordId": "{Salesforce account ID}",
+  "interactionId": "",
+  "interactionName": "",
+  "caseData": [{
+      "type": "documentation|internalIssue",
+      "interactionId": "",
+      "caseId": ""
+  }],
+  "autodocSessionId": "",
+  "productType": "Dental|Vision|UHOne",
+  "searchType": "Member|Provider",
+  "subject": "Member|Provider|Group",
+  "originator": "Member|Provider|Other",
+  "subjectData": {
+    "member": {
+      "name": {
+        "firstName": "",
+        "lastName": "",
+        "middleInitial": ""
+      },
+      "fullName": "",
+      "ssn": "",
+      "dob": "1980-01-01",
+      "eid": "",
+      "systemIds": [
+        {
+          "sourceSystem": "DF|VAS|COSMOS",
+          "subscriberId": "",
+          "memberId": "",
+          "alternateId": "",
+          "groupId": "",
+          "memberKey": "",
+          "subscriberKey": "",
+          "enrolleeId": "",
+          "insuredEnrolleeId": ""
+        }
+      ],
+    },
+    "provider": {
+      "providerId": "",
+      "taxId": "",
+      "taxPrefix": "",
+      "taxSuffix": "",
+      "mpin": "",
+      "npi": "",
+      "name": {
+        "firstName": "",
+        "lastName": "",
+        "middleInitial": ""
+      },
+      "fullName": "",
+      "address":{
+        "zip": "",
+        "street1": "",
+        "street2": "",
+        "stateCode": "",
+        "city": ""
+      },
+      "phone":{
+        "areacode": "",
+        "number": "",
+        "ext": "",
+        "ext2": ""
+      }
+    }
+  },
+  "originatorData": {},
+  "applicationState": {
+    "pageId": "",
+    "eligibility": {
+      "currentSelectedPolicyNumber": "",
+      "currentSelectedProductID": ""
+    },
+    "claim": {
+      "currentSelectedClaimNumber": ""
+    },
+    "benefits": {
+      "currentSelectedBenefit": ""
+    }
+  },
+  "APIRequest":{
+    "requestType": "benefitProcedureCodesSearchResponse",
+    "requestParams": {
+      "product": "dental",
+      "lob": "",
+      "queryKVP": {
+        "productId": "",
+        "memberContrivedKey": "",
+        "dateOfService": "",
+        "procedureCodes": "",
+        "reportingCategory": "",
+        "providerId": ""
+      }
+    }
+  },
+  "CaseMgmtRequest": {
+    "requestType": "saveCase|route",
+    "requestData": {
+      "saveCase": {
+
+      },
+      "route": {
+        "topic": "view-claims"
+      }
+    }
+  }
+}

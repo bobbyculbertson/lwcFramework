@@ -1,1 +1,2 @@
-# lwcFramework
+# solutions
+solution documentation &amp; designs

@@ -1,0 +1,17 @@
+{
+  "$id": "https://acet.uhg.com/schemas/autodocCorrelationIds",
+  "$schema": "https:/json-schema.org/draft/2020-12/schema",
+  "title": "autodocCorrelationIds",
+  "type": "object",
+  "properties": {
+    "corrKey": {
+      "type": "string",
+      "description": "Unique identifier for the topic item (e.g. claim # uniquely identifies a claim)"
+    },
+    "data": {
+      "type": "object",
+      "description": "Data object for a tile or table view type component"
+    }
+  },
+  "required": ["corrKey","data"]
+}

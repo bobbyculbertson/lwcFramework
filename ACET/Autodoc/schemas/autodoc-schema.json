@@ -1,0 +1,40 @@
+{
+  "$id": "https://acet.uhg.com/autodoc.schema.json",
+  "$schema": "https:/json-schema.org/draft/2020-12/schema",
+  "title": "Autodoc",
+  "type": "object",
+  "required": [ "sessionID", "subjectType", "subjectData", "originatorType"],
+  "properties": {
+    "sessionID": {
+      "type": "string",
+      "description": "unique autodoc session ID for the subject interaction"
+    },
+    "subjectType": {
+      "enum": ["member","provider","group"],
+      "description": "the subject type for the current autodoc data"
+    },
+    "originatorType": {
+      "enum": ["member","provider","other"],
+      "description": "the originator type for the current autodoc data"
+    },
+    "subjectData": {
+
+    },
+    "originatorData": {
+
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "Identifies the topic category for the data"
+          },
+          "comps": { "$ref": "/schemas/componentItems" }
+        }
+      }
+    }
+  }
+}

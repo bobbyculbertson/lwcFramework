@@ -1,0 +1,27 @@
+{
+  "$id": "https://acet.uhg.com/schemas/metadata",
+  "$schema": "https:/json-schema.org/draft/2020-12/schema",
+  "title": "autodocMetadata",
+  "type": "object",
+  "properties": {
+    "viewType": {
+      "enum": ["tile","table"]
+    },
+    "isPrimary": {
+      "type": "boolean",
+      "description": "Identifies if the component sets the autodoc context for other components. I.E. sets the active correlation ID context for other components."
+    },
+    "isSecondary": {
+      "type": "boolean",
+      "description": "Identifies if the component is dependent on a primary component to set the current correlation ID in the application context"
+    },
+    "columns": {
+      "type": "array",
+      "description": "Identifies all the columns for a table layout. This is not used for tile layouts",
+      "items": {
+
+      }
+    }
+  },
+  "required": ["viewType"]
+}

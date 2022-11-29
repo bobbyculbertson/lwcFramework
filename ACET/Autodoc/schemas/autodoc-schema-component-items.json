@@ -1,0 +1,19 @@
+{
+  "$id": "https://acet.uhg.com/schemas/componentItems",
+  "$schema": "https:/json-schema.org/draft/2020-12/schema",
+  "title": "autodocComponentItems",
+  "type": "array",
+  "description": "Contains the list of components producing autodoc data",
+  "items": {
+    "type": "object",
+    "properties": {
+      "compKey": {
+        "type": "string",
+        "description": "Name of the component producing autodoc data for this topic"
+      },
+      "metadata": { "$ref": "/schemas/metadata" },
+      "corrIds": { "$ref": "/schemas/autodocCorrelationIds" }
+    },
+    "required": ["viewType"]
+  }
+}

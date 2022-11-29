@@ -1,0 +1,60 @@
+{
+  "$id": "https://acet.uhg.com/ico.schema.json",
+  "$schema": "https:/json-schema.org/draft/2020-12/schema",
+  "title": "Interaction Context Object",
+  "type": "object",
+  "required": [ "", "", "", ""],
+  "properties": {
+    "interactionID": {
+      "type": "string",
+      "description": "The interaction record ID associated with this subject data"
+    },
+    "interactionName": {
+      "type": "string",
+      "description": "The interaction record name associated with this subject data"
+    },
+    "subjectAccountRecordId": {
+      "type": "string",
+      "description": "Account record ID for the subject account."
+    },
+    "autodocSessionId": {
+      "type": "string",
+      "description": "Unique ID for the autodoc session"
+    },
+    "productType": {
+      "enum": ["Dental","Vision","UHOne"],
+      "description": "The LOB product associated with this subject data"
+    },
+    "searchType": {
+      "enum": ["member","provider","group"],
+      "description": "the search type for the current autodoc data"
+    },
+    "subjectType": {
+      "enum": ["member","provider","group"],
+      "description": "the subject type for the current autodoc data"
+    },
+    "originatorType": {
+      "enum": ["member","provider","other"],
+      "description": "the originator type for the current autodoc data"
+    },
+    "subjectData": {
+
+    },
+    "originatorData": {
+
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "description": "Identifies the topic category for the data"
+          },
+          "comps": { "$ref": "/schemas/componentItems" }
+        }
+      }
+    }
+  }
+}

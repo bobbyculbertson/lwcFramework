@@ -1,0 +1,38 @@
+
+<template>
+  <!-- some tile cards may have a 'select all' checkbox //-->
+  <lightning-input type="checkbox" checked="field.autodoc" data-name=""
+          data-element="select-all-checkbox" onchange={handleCheckboxChange}></lightning-input>
+
+  <!-- Example Tile Card //-->
+  <template for:each={tileData} for:item="field" for:index="index">
+    <!-- some tile fields may have autodoc checkbox fields //-->
+    <template if:true={field.enableAutodoc}>
+      <lightning-input type="checkbox" checked="field.autodoc" data-name="" data-value="field.name" disabled={filed.autodocEnabled}
+              data-element="field-checkbox" onchange={handleTileCheckboxChange}></lightning-input>
+    </template>
+  </template>
+
+  <!-- Example Table Card //-->
+
+    <table>
+      <thead><tr>
+        <!-- Header Autodoc Checkbox (when clicked, all rows will be selected/de-selected) //-->
+        <lightning-input type="checkbox" checked="false" data-name=""
+                data-element="select-all-checkbox" onchange={handleTableCheckboxChange}></lightning-input>
+        <template for:each={tableData.columns} for:item={column}>
+          <th> <!-- all the column headers //--></th>
+        </template>
+      </tr></thead>
+      <tbody>
+        <template for:each={tableData.rows} for:item="row" for:index="index">
+          <template if:true={row.enableAutodoc}>
+            <lightning-input type="checkbox" checked="field.autodoc" data-name="" data-value="field.name" disabled={filed.autodocEnabled}
+                  data-element="row-checkbox" onchange={handleTableCheckboxChange}></lightning-input>
+          </template>
+          <template for:each={row.data} for:item="rowColumn" for:index="index">
+          <tr><td><!-- all the row column data //--></td></tr>
+        </template>
+      </tbody>
+    </table>
+  </template>

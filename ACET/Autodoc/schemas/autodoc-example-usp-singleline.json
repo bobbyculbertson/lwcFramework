@@ -1,0 +1,466 @@
+{
+  "sessions": [
+    {
+      "sessionKey": "EthelAlexsandrovich391961516625877001409428",
+      "subjectData": {
+        "name": "Ethel Alexsandrovich",
+        "dob": "3/9/1961",
+        "memberId": "51662587700",
+        "groupId": "1409428"
+      },
+      "caseNumber": "00991546",
+      "interactionNumber": "INT-2267034",
+      "subjectType": "Member",
+      "topics": [
+        {
+          "topicKey": "coordination-of-benefits",
+          "comps": [
+            {
+              "compKey": "highlights-panel",
+              "metadata": {
+                "viewType": "Tile",
+                "isPrimary": "false",
+                "isSecondary": "false"
+              },
+              "corrIds": [
+                {
+                  "corrKey": "highlights-panel-tile",
+                  "data": {
+                    "highlightsPanelOriginatorName": {
+                      "name": "Originator Name",
+                      "value": "Ethel  Alexsandrovich ()",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelSubjectName": {
+                      "name": "Subject Name",
+                      "value": "Ethel Alexsandrovich",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelMemberId": {
+                      "name": "Member ID",
+                      "value": "51662587700",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelMemberStatus": {
+                      "name": "Member Status",
+                      "value": "Active",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelMemberDOB": {
+                      "name": "Date of Birth",
+                      "value": "3/9/1961",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelGroupNumber": {
+                      "name": "Group Number",
+                      "value": "1409428",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelEffectiveDate": {
+                      "name": "Effective Date",
+                      "value": "11/1/2021",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelEndDate": {
+                      "name": "End Date",
+                      "value": "12/31/9999",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelNetwork": {
+                      "name": "Network",
+                      "value": "CHOICE_LF",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelBenefitBundleOptionId": {
+                      "name": "Benefit Bundle Option ID",
+                      "value": "14476375",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelSitusState": {
+                      "name": "Situs State",
+                      "value": "WA",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelSpecialNeedsStatus": {
+                      "name": "Special Needs Status",
+                      "value": "Not Eligible",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelCovid19Vaccine": {
+                      "name": "COVID-19 Vaccine",
+                      "value": "",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    },
+                    "highlightsPanelProduct": {
+                      "name": "Product",
+                      "value": "United Healthcare EPO",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "highlights-panel"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "compKey": "other-commercial-insurance-table",
+              "metadata": {
+                "viewType": "Table",
+                "isPrimary": "false",
+                "isSecondary": "false",
+                "columns": [
+                  {
+                    "fieldName": "Field0",
+                    "label": "Name"
+                  },
+                  {
+                    "fieldName": "Field1",
+                    "label": "Member ID"
+                  },
+                  {
+                    "fieldName": "Field2",
+                    "label": "Relationship"
+                  },
+                  {
+                    "fieldName": "Field3",
+                    "label": "Date of Birth"
+                  },
+                  {
+                    "fieldName": "Field4",
+                    "label": "Age"
+                  },
+                  {
+                    "fieldName": "Field5",
+                    "label": "Insurance Type"
+                  },
+                  {
+                    "fieldName": "Field6",
+                    "label": "Other Insurance ID"
+                  },
+                  {
+                    "fieldName": "Field7",
+                    "label": "Other Insurance Carrier Name"
+                  },
+                  {
+                    "fieldName": "Field8",
+                    "label": "Coverage Type"
+                  },
+                  {
+                    "fieldName": "Field9",
+                    "label": "Order of Benefits"
+                  },
+                  {
+                    "fieldName": "Field10",
+                    "label": "Start"
+                  },
+                  {
+                    "fieldName": "Field11",
+                    "label": "End"
+                  },
+                  {
+                    "fieldName": "Field12",
+                    "label": "Custodial Parent"
+                  },
+                  {
+                    "fieldName": "Field13",
+                    "label": "Source"
+                  },
+                  {
+                    "fieldName": "Field14",
+                    "label": "Resolved"
+                  }
+                ]
+              },
+              "corrIds": [
+                {
+                  "corrKey": "EthelAlexsandrovich51662587700391961",
+                  "data": {
+                    "autodoc": "true",
+                    "Field0": "Ethel Alexsandrovich",
+                    "Field1": "51662587700",
+                    "Field2": "Self",
+                    "Field3": "3/9/1961",
+                    "Field4": "61",
+                    "Field5": "",
+                    "Field6": "",
+                    "Field7": "",
+                    "Field8": "",
+                    "Field9": "",
+                    "Field10": "",
+                    "Field11": "",
+                    "Field12": "",
+                    "Field13": "",
+                    "Field14": "true"
+                  }
+                }
+              ]
+            },
+            {
+              "compKey": "other-commercial-insurance",
+              "metadata": {
+                "viewType": "Tile",
+                "isPrimary": "false",
+                "isSecondary": "false"
+              },
+              "corrIds": [
+                {
+                  "corrKey": "other-commercial-insurance-tile",
+                  "data": {
+                    "otherCommercialInsuranceExists": {
+                      "name": "Does Other Commercial Insurance Exist ?",
+                      "value": "Yes",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherInsuranceType": {
+                      "name": "Other Insurance Type",
+                      "value": "Commercial",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherInsuranceCarrierName": {
+                      "name": "Other Insurance Carrier Name",
+                      "value": "test",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherCommercialInsuranceEffectiveDate": {
+                      "name": "Effective Date",
+                      "value": "06/27/2022",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherCommercialInsuranceCoverageType": {
+                      "name": "Coverage Type",
+                      "value": "Medical Care",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherInsuranceIdNum": {
+                      "name": "Other Insurance ID Number",
+                      "value": "123",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherCommercialInsuranceEndDate": {
+                      "name": "End Date",
+                      "value": "07/01/2022",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherCommercialInsurancePrimacyIndicator": {
+                      "name": "Primacy Indicator",
+                      "value": "Primary",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherInsurancePhoneNumber": {
+                      "name": "Other Insurance Phone Number",
+                      "value": "123-123-1231",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    },
+                    "otherCommercialInsuranceWorkStatus": {
+                      "name": "Work Status",
+                      "value": "Actively Working",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-commercial-insurance"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "compKey": "other-government-insurance-table",
+              "metadata": {
+                "viewType": "Table",
+                "isPrimary": "false",
+                "isSecondary": "false",
+                "columns": [
+                  {
+                    "fieldName": "Field0",
+                    "label": "Name"
+                  },
+                  {
+                    "fieldName": "Field1",
+                    "label": "Member ID"
+                  },
+                  {
+                    "fieldName": "Field2",
+                    "label": "Relationship"
+                  },
+                  {
+                    "fieldName": "Field3",
+                    "label": "Date of Birth"
+                  },
+                  {
+                    "fieldName": "Field4",
+                    "label": "Age"
+                  },
+                  {
+                    "fieldName": "Field5",
+                    "label": "Government Benefit Type"
+                  },
+                  {
+                    "fieldName": "Field6",
+                    "label": "Other Insurance ID"
+                  },
+                  {
+                    "fieldName": "Field7",
+                    "label": "Order of Benefits"
+                  },
+                  {
+                    "fieldName": "Field8",
+                    "label": "Start"
+                  },
+                  {
+                    "fieldName": "Field9",
+                    "label": "End"
+                  },
+                  {
+                    "fieldName": "Field10",
+                    "label": "Crossover Indicator"
+                  },
+                  {
+                    "fieldName": "Field11",
+                    "label": "Entitlement Reason"
+                  },
+                  {
+                    "fieldName": "Field12",
+                    "label": "Source"
+                  },
+                  {
+                    "fieldName": "Field13",
+                    "label": "Resolved"
+                  }
+                ]
+              },
+              "corrIds": [
+                {
+                  "corrKey": "EthelAlexsandrovich51662587700391961",
+                  "data": {
+                    "autodoc": "true",
+                    "Field0": "Ethel Alexsandrovich",
+                    "Field1": "51662587700",
+                    "Field2": "Self",
+                    "Field3": "3/9/1961",
+                    "Field4": "61",
+                    "Field5": "",
+                    "Field6": "",
+                    "Field7": "",
+                    "Field8": "",
+                    "Field9": "",
+                    "Field10": "",
+                    "Field11": "",
+                    "Field12": "",
+                    "Field13": "true"
+                  }
+                }
+              ]
+            },
+            {
+              "compKey": "other-government-insurance",
+              "metadata": {
+                "viewType": "Tile",
+                "isPrimary": "false",
+                "isSecondary": "false"
+              },
+              "corrIds": [
+                {
+                  "corrKey": "other-government-insurance-tile",
+                  "data": {
+                    "otherGovernmentInsuranceExists": {
+                      "name": "Does Other Government Insurance Exist ?",
+                      "value": "Yes",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    },
+                    "otherGovernmentInsuranceCoverageType": {
+                      "name": "Coverage Type",
+                      "value": "BLACKLUNG",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    },
+                    "otherGovernmentInsuranceEffectiveDate": {
+                      "name": "Effective Date",
+                      "value": "06/27/2022",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    },
+                    "govOtherInsuranceCarrierName": {
+                      "name": "Other Insurance ID Number",
+                      "value": "123",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    },
+                    "otherGovernmentInsuranceEndDate": {
+                      "name": "End Date",
+                      "value": "06/30/2022",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    },
+                    "otherGovernmentInsurancePrimacyIndicator": {
+                      "name": "Primacy Indicator",
+                      "value": "Primary",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    },
+                    "otherGovernmentBenefitType": {
+                      "name": "Benefit Type",
+                      "value": "MD",
+                      "autodoc": "true",
+                      "visible": "true",
+                      "compName": "other-government-insurance"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

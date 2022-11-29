@@ -1,0 +1,26 @@
+[
+  "NOTE: A component will need to be associated with a correlation ID",
+
+  {
+    "type": "static",
+    "name": "componentName",
+    "value": "claim-search-results"
+  },,
+  {
+    "type": "static",
+    "name": "topic",
+    "value": "view-claims"
+  },
+  {
+    "type": "static",
+    "name": "isPrimary",
+    "value": "true"
+  },
+  {
+    "type": "dynamic",
+    "name": "correlationId",
+    "value": "",
+    "apiNode": "claimDetailsSearchResponse",
+    "nodePath": "claimDetailsResponse.claimDetails",
+  }
+]
